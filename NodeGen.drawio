@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T19:39:09.091Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="9AH0qM6LjgkXHV6Ij_36" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T21:27:25.281Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="BkIPiNPwAjYurBZRfU9J" version="24.4.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="880" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,14 +35,46 @@
         <mxCell id="IoEKvDDi0kx3sT1BVKP_-8" value="The user is asked to make a choice for framework." style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="650" y="135" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="IoEKvDDi0kx3sT1BVKP_-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IoEKvDDi0kx3sT1BVKP_-9" target="IoEKvDDi0kx3sT1BVKP_-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IoEKvDDi0kx3sT1BVKP_-9" target="IoEKvDDi0kx3sT1BVKP_-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="915" y="320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="IoEKvDDi0kx3sT1BVKP_-9" value="Did the user choose ExpressJS?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="860" y="120" width="110" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IoEKvDDi0kx3sT1BVKP_-11" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="855" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IoEKvDDi0kx3sT1BVKP_-13" target="IoEKvDDi0kx3sT1BVKP_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-13" value="Create a new folder, prompt them for a name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="855" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IoEKvDDi0kx3sT1BVKP_-14" target="IoEKvDDi0kx3sT1BVKP_-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-14" value="Cd into the new folder, run npm init." style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="855" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IoEKvDDi0kx3sT1BVKP_-16" target="IoEKvDDi0kx3sT1BVKP_-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-16" value="&lt;div&gt;npm install body-parser cors morgan helmet&lt;/div&gt;&lt;div&gt;express bcrypt winston&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="855" y="524.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IoEKvDDi0kx3sT1BVKP_-20" target="IoEKvDDi0kx3sT1BVKP_-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-20" value="Ask whether they&#39;d prefer to work with SQL or NoSQL databases.&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="857.5" y="654.5" width="115" height="115.5" as="geometry" />
+        </mxCell>
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IoEKvDDi0kx3sT1BVKP_-22" target="IoEKvDDi0kx3sT1BVKP_-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-22" value="If SQL, install Sequelize. If NoSQL, install mongoose." style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="855" y="824.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-24" value="mkdir src - routes, controllers, services, models, repositories, utils, config. Add server.js" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="855" y="964.5" width="120" height="75.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
