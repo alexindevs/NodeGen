@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T21:38:13.347Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="mzHbQRbKLuLev5QbmEjT" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T21:47:15.914Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="MRe3hBjMyVnR7Yr5mSKm" version="24.4.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="880" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,7 +82,7 @@
         <mxCell id="IoEKvDDi0kx3sT1BVKP_-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IoEKvDDi0kx3sT1BVKP_-26" target="IoEKvDDi0kx3sT1BVKP_-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IoEKvDDi0kx3sT1BVKP_-26" value="Put code in the server js file." style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-26" value="Put basic server code in the server js file." style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="855" y="1127.75" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IoEKvDDi0kx3sT1BVKP_-30" value="Print a message alerting the user that the setup is complete, and instructing them on how to cd into the server and start it." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
