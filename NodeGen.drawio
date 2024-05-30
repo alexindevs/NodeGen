@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T18:26:14.368Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="46aIwy1GhhRLfMCWmv-k" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-30T19:32:06.832Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Utuf_wtcQM1eO6OYPp8r" version="24.4.10" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="880" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,6 +6,23 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="IoEKvDDi0kx3sT1BVKP_-0" value="NodeGen Process Flow" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Lucida Console;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="309" y="33" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IoEKvDDi0kx3sT1BVKP_-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-1" value="The user runs the terminal command" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IoEKvDDi0kx3sT1BVKP_-4" target="IoEKvDDi0kx3sT1BVKP_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-4" value="The user is shown a welcome flow, consisting of a message containing instructions on how to use the package." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IoEKvDDi0kx3sT1BVKP_-5" value="The user is prompted for information on what framework they wish to work with. For now, the only options are Express, NestJs and Express with Typescript" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="120" width="120" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
