@@ -43,6 +43,7 @@ int initializeExpressApp() {
     }
 
     printf ("Your project %s is ready to use!\n", project_name);
+    printf("Run 'cd %s' to enter the project directory.\n", project_name);
     printf("Run 'npm start' to start the server.\n");
     printf("Happy coding!\n");
     return 0;

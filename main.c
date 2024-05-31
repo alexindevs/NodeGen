@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define PI 3.14159
 #include "functions.h"
 #include <stdlib.h>
 #include <string.h>
@@ -11,6 +10,11 @@ int main() {
 
    if (strcmp(framework, "ExpressJS") == 0) {
       if (initializeExpressApp() == 1) {
+         printf("Error: Failed to initialize Express app.\n");
+         return 1;
+      }
+   } else if (strcmp(framework, "ExpressJS + Typescript") == 0) {
+      if (initializeExpressTSApp() == 1) {
          printf("Error: Failed to initialize Express app.\n");
          return 1;
       }

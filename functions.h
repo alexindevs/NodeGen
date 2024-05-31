@@ -5,5 +5,10 @@ char* initialize();
 char* databaseSelection();
 int folderSetup();
 int initializeExpressApp();
+int initializeExpressTSApp();
+int installDependencies();
+int TSFolderSetup();
+char* TSdatabaseSelection();
+
 
 #endif
