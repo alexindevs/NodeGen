@@ -33,7 +33,7 @@ To use NodeGen, follow these steps:
 3. Compile the project:
 
    ```bash
-   find . -name "*.c" -exec gcc {} -o NodeGen \;
+   gcc lib/express.c lib/express-ts.c initializer.c lib/nestjs.c main.c -o NodeGen
    ```
 
 4. Add the project directory to your system's PATH to make NodeGen executable from anywhere. Edit your shell configuration file (`~/.bashrc`, `~/.bash_profile`, `~/.zshrc`, etc.) and add the following line:
