@@ -114,7 +114,7 @@ int folderSetup() {
     fprintf(file, "const cors = require('cors');\n");
     fprintf(file, "const morgan = require('morgan');\n\n");
     fprintf(file, "require('dotenv').config();\n\n");
-    fprintf(file, "bodyParser = require('body-parser');\n\n");
+    fprintf(file, "const bodyParser = require('body-parser');\n\n");
 
     // Create an Express app
     fprintf(file, "const app = express();\n\n");
