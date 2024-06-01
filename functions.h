@@ -9,6 +9,7 @@ int initializeExpressTSApp();
 int installDependencies();
 int TSFolderSetup();
 char* TSdatabaseSelection();
+int initializeNestJSApp();
 
 
 #endif

@@ -18,7 +18,11 @@ int main() {
          printf("Error: Failed to initialize Express app.\n");
          return 1;
       }
+   } else if (strcmp(framework, "NestJS") == 0) {
+      if (initializeNestJSApp() == 1) {
+         printf("Error: Failed to initialize NestJS app.\n");
+         return 1;
+      }
    }
-
    return (0);
 }
